@@ -1,0 +1,1 @@
+# atom-obscurity-syntax theme

@@ -1,0 +1,15 @@
+{
+  "name": "atom-obscurity-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Obscurity is a dark syntax theme for Atom by Adonis K.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/varemenos/atom-obscurity-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
