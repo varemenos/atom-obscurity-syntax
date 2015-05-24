@@ -6,7 +6,9 @@ This is a dark syntax theme for atom best used with Atom's built in "One Dark" U
 
 ## Installation
 
-`apm install obscurity-syntax`
+```shell
+apm install obscurity-syntax
+```
 
 ## Screenshot
 
