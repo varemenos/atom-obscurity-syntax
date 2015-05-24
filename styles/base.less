@@ -309,3 +309,13 @@ atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
   padding-left: 1px;
 }
+
+.meta.structure.dictionary.value.json {
+    .punctuation + .string.quoted.double.json {
+        color: @white;
+    }
+
+    .constant.numeric.json {
+        color: @cyan;
+    }
+}
