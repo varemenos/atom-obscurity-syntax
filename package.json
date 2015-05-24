@@ -5,7 +5,14 @@
   "description": "Obscurity is a dark syntax theme for Atom by Adonis K.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark",
+    "atom",
+    "yellow",
+    "green",
+    "cyan",
+    "adonisk",
+    "varemenos"
   ],
   "repository": "https://github.com/varemenos/obscurity-syntax",
   "license": "MIT",
