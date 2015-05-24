@@ -12,7 +12,7 @@ apm install obscurity-syntax
 
 ## Screenshot
 
-![obscurity syntax theme screenshot](./screenshot.png)
+![obscurity syntax theme screenshot](https://raw.githubusercontent.com/varemenos/obscurity-syntax/master/screenshot.png)
 
 ## License
 
