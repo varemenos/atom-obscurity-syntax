@@ -1,7 +1,7 @@
 {
   "name": "obscurity-syntax",
   "theme": "syntax",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Obscurity is a dark syntax theme for Atom by Adonis K.",
   "keywords": [
     "syntax",
