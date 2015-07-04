@@ -12,11 +12,11 @@ apm install obscurity-syntax
 
 ## Screenshot
 
-![obscurity syntax theme screenshot](https://raw.githubusercontent.com/varemenos/obscurity-syntax/master/screenshot.png)
+![obscurity syntax theme screenshot](https://cdn.rawgit.com/varemenos/obscurity-syntax/master/screenshot.png)
 
 ## Color Palette
 
-![obscurity syntax theme screenshot](https://raw.githubusercontent.com/varemenos/obscurity-syntax/master/palette.svg)
+![obscurity color palette](https://cdn.rawgit.com/varemenos/obscurity-syntax/master/palette.svg)
 
 ## License
 
