@@ -14,6 +14,10 @@ apm install obscurity-syntax
 
 ![obscurity syntax theme screenshot](https://raw.githubusercontent.com/varemenos/obscurity-syntax/master/screenshot.png)
 
+## Color Palette
+
+![obscurity syntax theme screenshot](https://raw.githubusercontent.com/varemenos/obscurity-syntax/master/palette.svg)
+
 ## License
 
 the MIT License (MIT)
