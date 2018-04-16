@@ -129,14 +129,14 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
-.variable {
+.syntax--variable {
   color: @cyan;
 
-  &.interpolation {
+  &.syntax--interpolation {
     color: darken(@cyan, 10%);
   }
 
-  &.parameter.function {
+  &.syntax--parameter.function {
     color: @syntax-text-color;
   }
 }
@@ -170,8 +170,8 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     }
 
     &.string,
-    &.variable,
-    &.parameters,
+    &.syntax--variable,
+    &.syntax--parameters,
     &.array {
       color: @syntax-text-color;
     }
