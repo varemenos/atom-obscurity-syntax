@@ -289,19 +289,19 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     color: @light-green;
   }
 
-  &.inserted {
+  &.syntax--inserted {
     color: @red;
   }
 
-  &.list {
+  &.syntax--list {
     color: @cyan;
   }
 
-  &.quote {
+  &.syntax--quote {
     color: @yellow;
   }
 
-  &.raw.inline {
+  &.syntax--raw.inline {
     color: @red;
   }
 }
@@ -319,7 +319,7 @@ atom-text-editor([mini]) .scroll-view {
 }
 
 .syntax--meta.structure.dictionary.value.json {
-    .syntax--punctuation + .syntax--string.quoted.double.json {
+    .syntax--punctuation + .syntax--string.syntax--quoted.double.json {
         color: @white;
     }
 
