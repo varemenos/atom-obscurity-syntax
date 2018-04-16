@@ -163,8 +163,8 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
-.punctuation {
-  &.definition {
+.syntax--punctuation {
+  &.syntax--definition {
     &.syntax--comment {
       color: @comment;
     }
@@ -176,17 +176,17 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
       color: @syntax-text-color;
     }
 
-    &.heading,
+    &.syntax--heading,
     &.identity {
       color: @light-green;
     }
 
-    &.bold {
+    &.syntax--bold {
       color: @orange;
       font-weight: bold;
     }
 
-    &.italic {
+    &.syntax--italic {
       color: @strong-yellow;
       font-style: italic;
     }
@@ -267,7 +267,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .markup {
-  &.bold {
+  &.syntax--bold {
     color: @yellow;
     font-weight: bold;
   }
@@ -280,12 +280,12 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     color: @cyan;
   }
 
-  &.italic {
+  &.syntax--italic {
     color: @strong-yellow;
     font-style: italic;
   }
 
-  &.heading .punctuation.definition.heading {
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
     color: @light-green;
   }
 
@@ -308,7 +308,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 .syntax--source.gfm .markup {
   -webkit-font-smoothing: auto;
-  &.heading {
+  &.syntax--heading {
     color: @red;
   }
 }
@@ -319,7 +319,7 @@ atom-text-editor([mini]) .scroll-view {
 }
 
 .meta.structure.dictionary.value.json {
-    .punctuation + .syntax--string.quoted.double.json {
+    .syntax--punctuation + .syntax--string.quoted.double.json {
         color: @white;
     }
 
