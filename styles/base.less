@@ -266,17 +266,17 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   color: @syntax-text-color;
 }
 
-.markup {
+.syntax--markup {
   &.syntax--bold {
     color: @yellow;
     font-weight: bold;
   }
 
-  &.changed {
+  &.syntax--changed {
     color: @strong-yellow;
   }
 
-  &.deleted {
+  &.syntax--deleted {
     color: @cyan;
   }
 
@@ -306,7 +306,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
-.syntax--source.gfm .markup {
+.syntax--source.gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
     color: @red;
