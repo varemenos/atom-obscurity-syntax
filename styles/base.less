@@ -101,15 +101,15 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
-.storage {
+.syntax--storage {
   color: @strong-yellow;
 
-  &.todo {
+  &.syntax--todo {
       color: @comment;
   }
 }
 
-.constant {
+.syntax--constant {
   color: @yellow;
 
   &.character.escape {
@@ -323,7 +323,7 @@ atom-text-editor([mini]) .scroll-view {
         color: @white;
     }
 
-    .constant.numeric.json {
+    .syntax--constant.numeric.json {
         color: @cyan;
     }
 }
