@@ -112,11 +112,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 .syntax--constant {
   color: @yellow;
 
-  &.character.escape {
+  &.syntax--character.syntax--escape {
     color: @green;
   }
 
-  &.numeric {
+  &.syntax--numeric {
     color: @yellow;
   }
 
@@ -323,7 +323,7 @@ atom-text-editor([mini]) .scroll-view {
         color: @white;
     }
 
-    .syntax--constant.numeric.json {
+    .syntax--constant.syntax--numeric.json {
         color: @cyan;
     }
 }
